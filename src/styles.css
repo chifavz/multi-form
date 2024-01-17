@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Container for the entire form */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for individual form steps */
+.form-step {
+  margin-bottom: 20px;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+/* Container for navigation buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for navigation buttons */
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

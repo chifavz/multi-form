@@ -1,0 +1,108 @@
+/* MultiStepForm.css */
+
+/* Layout */
+.form-container {
+    max-width: 1440px; /* Desktop width */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Colors */
+  /* Primary */
+  .marine-blue {
+    color: hsl(213, 96%, 18%);
+  }
+  
+  .purplish-blue {
+    color: hsl(243, 100%, 62%);
+  }
+  
+  .pastel-blue {
+    color: hsl(228, 100%, 84%);
+  }
+  
+  .light-blue {
+    color: hsl(206, 94%, 87%);
+  }
+  
+  .strawberry-red {
+    color: hsl(354, 84%, 57%);
+  }
+  
+  /* Neutral */
+  .cool-gray {
+    color: hsl(231, 11%, 63%);
+  }
+  
+  .light-gray {
+    color: hsl(229, 24%, 87%);
+  }
+  
+  .magnolia {
+    color: hsl(217, 100%, 97%);
+  }
+  
+  .alabaster {
+    color: hsl(231, 100%, 99%);
+  }
+  
+  .white {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  /* Typography */
+  /* Body Copy */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Font */
+  .font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+  }
+  
+  .font-ubuntu-medium {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+  }
+  
+  .font-ubuntu-bold {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Form Styling */
+  h2 {
+    color: var(--purplish-blue); /* Use the purplish-blue color variable */
+  }
+  
+  label {
+    color: var(--marine-blue); /* Use the marine-blue color variable */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: var(--strawberry-red); /* Use the strawberry-red color variable for errors */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  /* Add more styles as needed based on your design preferences */
+  
